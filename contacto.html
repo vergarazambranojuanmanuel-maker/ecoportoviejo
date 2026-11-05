@@ -9,16 +9,18 @@
 <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-<div class="cabecera">
+<header class="cabecera">
   <img src="img/logo.svg" width="48" height="48">
-  <div class="titulo">EcoPortoviejo</div>
-  <div class="menu">
-    <a href="index.html">Inicio</a>
-    <a href="guia.html">Guía</a>
-    <a href="contacto.html">Contacto</a>
-  </div>
-</div>
-<div class="contenido">
+  <p class="titulo">EcoPortoviejo</p>
+  <nav aria-label="Principal">
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="guia.html">Guía</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="contenido">
   <h1>Contacto</h1>
   <p>Escríbenos tus dudas o sugerencias.</p>
   <form onsubmit="return validar()">
@@ -29,8 +31,8 @@
     <input type="submit" value="Enviar" class="enviar">
     <div id="error" class="error-texto"></div>
   </form>
-</div>
-<div class="pie">© 2026 EcoPortoviejo. Proyecto académico.</div>
+</main>
+<footer class="pie"><p>© 2026 EcoPortoviejo. Proyecto académico.</p></footer>
 <script src="js/script.js"></script>
 </body>
 </html>
