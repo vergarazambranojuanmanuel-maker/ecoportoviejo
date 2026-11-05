@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inicio</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="cabecera">
+  <img src="img/logo.svg" width="48" height="48">
+  <div class="titulo">EcoPortoviejo</div>
+  <div class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="guia.html">Guía</a>
+    <a href="contacto.html">Contacto</a>
+  </div>
+</div>
+<div class="contenido">
+  <h1>Guía de reciclaje</h1>
+  <h4>Qué va en cada contenedor</h4>
+  <table border="1" width="100%">
+    <tr><td>Residuo</td><td>Contenedor</td><td>Ejemplos</td></tr>
+    <tr><td>Papel</td><td>Azul</td><td>Cuadernos, cartón, periódicos</td></tr>
+    <tr><td>Plástico</td><td>Amarillo</td><td>Botellas, envases, bolsas limpias</td></tr>
+    <tr><td>Orgánico</td><td>Café</td><td>Restos de comida, cáscaras</td></tr>
+  </table>
+  <h1>Preguntas frecuentes</h1>
+  <div class="pregunta" onclick="mostrar(1)">¿Debo lavar los envases?</div>
+  <div class="respuesta" id="r1">Sí, basta con enjuagarlos para quitar restos de comida.</div>
+  <div class="pregunta" onclick="mostrar(2)">¿Puedo reciclar papel con grasa?</div>
+  <div class="respuesta" id="r2">No. El papel con grasa va al contenedor orgánico.</div>
+  <div class="pregunta" onclick="mostrar(3)">¿Dónde se entregan las pilas?</div>
+  <div class="respuesta" id="r3">En los puntos limpios del municipio; nunca en la basura común.</div>
+  <p>Si tienes dudas, <a href="contacto.html">clic aquí</a>.</p>
+</div>
+<div class="pie" style="color:#999999; font-size:11px">© 2026 EcoPortoviejo. Proyecto académico.</div>
+<script src="js/script.js"></script>
+</body>
+</html>
