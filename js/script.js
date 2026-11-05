@@ -27,7 +27,7 @@ function validar() {
     ok = false;
   }
   if (!ok) {
-    error.innerHTML = "Revisa los campos";
+    error.innerHTML = "Error: revisa el nombre y el correo electrónico.";
     return false;
   }
   alert("Mensaje enviado");
